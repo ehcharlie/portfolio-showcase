@@ -1,0 +1,71 @@
+.main-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100%; // Add this to fill the parent's height
+
+    div {
+        flex: 1;
+        width: 100%; // Optional: if you want divs to span full width
+    }
+}
+
+.div-one {
+    background-color: #1F2936;
+}
+
+.div-three {
+    background-color: #E5E7EB;
+}
+
+.div-four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .cta-div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #3882F6;
+        color: #E5E7EB;
+        padding: 12px 24px;
+        border-radius: 8px;
+        max-width: 50%;
+        max-height: 50%;
+        margin: 0 auto;
+
+        button {
+            padding: 10px 28px;
+            color: #E5E7EB;
+            background-color: #3882F6;
+            border: 2px solid white;
+            border-radius: 6px;
+            cursor: pointer;
+            white-space: nowrap;
+            font-size: 0.75em;
+            font-weight: 500;
+            flex-shrink: 0; 
+        }
+    }
+
+    .cta-text {
+        display: flex;
+        flex-direction: column;
+        color: #E5E7EB;
+        height: 50%;
+        justify-content: space-between;
+
+        h2 {
+            padding-bottom: 0;
+            margin-bottom: 0px;
+        }
+
+        p {
+            margin-top: 0px;
+            padding-top: 0;
+        }
+    }
+}

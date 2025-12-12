@@ -1,0 +1,29 @@
+.header {
+    background-color: #1F2936;
+    padding: 0.75rem;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+        flex-wrap: wrap; // Add this
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding-left: 5em;
+}
+
+.nav-links {
+    display: flex;
+    padding-top: 0.3em;
+    gap: 2rem;
+    padding-right: 8em;
+    margin-left: auto; 
+}
+
+.nav-links a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
