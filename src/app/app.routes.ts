@@ -3,7 +3,7 @@ import {AboutComponent} from './about/about.component';
 import {SkillsComponent} from './skills/skills.component';
 
 export const routes: Routes = [
-  {path: 'about', component: AboutComponent},
-  {path: 'skills', component: SkillsComponent},
-  {path: '', redirectTo: 'about', pathMatch: 'full'},
+  {path: 'home', component: AboutComponent},
+  {path: 'about', component: SkillsComponent},
+  {path: '', redirectTo: 'home', pathMatch: 'full'},
 ];
