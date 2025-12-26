@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "landing-page-practice": {
+    "portfolio-showcase": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -62,10 +62,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "landing-page-practice:build:production"
+              "buildTarget": "portfolio-showcase:build:production"
             },
             "development": {
-              "buildTarget": "landing-page-practice:build:development"
+              "buildTarget": "portfolio-showcase:build:development"
             }
           },
           "defaultConfiguration": "development"
